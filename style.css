@@ -1,0 +1,303 @@
+:root {
+    --background-color: #FFB8CA;
+
+    --decorative-color: #D41443;
+
+    --text-color: #FFFFFF;
+
+    --title-color: #FFA5BA;
+
+    --p-color: #907E82;
+
+    --important-сolor:#000;
+}
+
+body{
+    color: var(--text-color);
+    font-family: "DM Sans";
+    
+}
+
+header{
+    background-color: var(--background-color);
+}
+.header-link:hover {
+    color: var(--decorative-color);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-skip-ink: none;
+}
+
+.header-link {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-skip-ink: none;
+}
+
+.header-button {
+    color: var(--decorative-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    width: 69px;
+    height: 44px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    font-family: "Titan One";
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 1.52px;
+    text-transform: uppercase;
+}
+
+.hero-passion {
+    color: var(--decorative-color);
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 90.5%;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+}
+
+.hero-number {
+    color: var(--decorative-color);
+    text-align: right;
+    font-family: "Titan One";
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+}
+
+.hero-product {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-product {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero-made {
+    color:var(--decorative-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+.products-slogan {
+    color: var(--decorative-color);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+}
+
+.products-title{
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.products-subtitle{
+    color: var(--text-color);
+text-align: center;
+font-family: "Titan One";
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.products-text{
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 176%;
+letter-spacing: 0.64px;
+}
+.tradition-title{
+    color: var(--title-color);
+text-align: center;
+font-family: "Titan One";
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.tradition-subtitle{
+    color: var(--decorative-color);
+text-align: center;
+font-family: "Titan One";
+font-size: 58px;
+font-weight: 400;
+letter-spacing: 3.48px;
+text-transform: uppercase;
+}
+.tradition-text{
+    color: var(--important-сolor);
+font-size: 16px;
+font-weight: 500;
+line-height: 176%; 
+letter-spacing: 0.64px;
+}
+.tradition-info{
+    color: var(--p-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 194%;
+letter-spacing: 0.56px;
+}
+.tradition-btn{
+    color: var(--decorative-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}
+.tradition-weight{
+    color: var(--decorative-color);
+text-align: right;
+font-family: "Titan One";
+font-size: 58px;
+font-weight: 400;
+letter-spacing: 2.32px;
+text-transform: uppercase;
+}
+.tradition-description{
+    color: var(--important-сolor);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 176%; 
+    letter-spacing: 0.32px;
+}
+.comments-response{
+    color: var(--important-сolor);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 186%;
+letter-spacing: 0.64px;
+}
+.comments-data{
+    color: var(--important-сolor);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 186%; 
+}
+.schedule-institution{
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 186%;
+letter-spacing: 0.64px;
+}
+.schedule-location{
+    color: var(--text-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 186%;
+letter-spacing: 0.64px;
+}
+.schedule-text{
+    color: var(--p-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 183%;
+letter-spacing: 0.64px;
+}
+.schedule-days{
+    color: var(--important-сolor);
+font-size: 16px;
+font-weight: 500;
+line-height: 186%;
+letter-spacing: 0.64px;
+}
+.schedule-time{
+    color: var(--title-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 186%;
+}
+.schedule-subtext{
+    color: var(--p-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 183%; 
+}
+.schedule-btn{
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}
+.schedule-franchise{
+    color: var(--decorative-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}
+.footer-title{
+    color: var(--title-color);
+font-family: "Titan One";
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.footer-passion{
+    color: var(--decorative-color);
+font-family: "Titan One";
+font-size: 58px;
+font-weight: 400;
+letter-spacing: 3.48px;
+text-transform: uppercase;
+}
+.footer-info{
+    color: var(--important-сolor);
+font-size: 16px;
+font-weight: 700;
+line-height: 186%;
+letter-spacing: 0.32px;
+}
+.footer-number{
+    color: var(--decorative-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 186%;
+letter-spacing: 0.32px;
+}
+.footer-subtext{
+    color: var(--p-color);
+font-size: 14px;
+font-weight: 700;
+line-height: 186%; 
+letter-spacing: 0.28px;
+}

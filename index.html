@@ -5,211 +5,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img src="./img/logo.png" alt="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">About us</a>
-            </li>
-            <li>
-                <a href="">How it’s made?</a>
-            </li>
-            <li>
-                <a href="">Our products</a>
-            </li>
-            <li>
-                <a href="">Contact</a>
-            </li>
-        </ul>
-        <button>Buy now</button>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">
+                <img class="header-img" src="./img/logo.png" alt="logo">
+            </a>
+            <ul class="header-list">
+                <li class="header-item">
+                    <a class="header-link" href="./index.html">Home</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="">About us</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="">How it’s made?</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="">Our products</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-link" href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header-button" type="button">Buy now</button>
     </header>
     <main>
-        <section>
-            <h1>
+        <section class="hero">
+            <h1 class="hero-title">
                 ice cream
                 made with
-                <span>passion</span>
+                <span class="hero-passion">passion</span>
             </h1>
-            <ul>
-                <li>
-                    <h3>16</h3>
-                    <p>cafes</p>
+            <ul class="hero-list">
+                <li class="hero-item">
+                    <h3 class="hero-number">16</h3>
+                    <p class="hero-product">cafes</p>
                 </li>
-                <li>
-                    <h3>23</h3>
-                    <p>food trucks</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <button>Products</button>
-                </li>
-                <li>
-                    <button>How it’s made?</button>
+                <li class="hero-item">
+                    <h3 class="hero-number">23</h3>
+                    <p class="hero-product">food trucks</p>
                 </li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            <ul class="hero-buttons">
+                <li class="hero-button">
+                    <button class="hero-product" type="button">Products</button>
+                </li>
+                <li class="hero-button">
+                    <button class="hero-made" type="button">How it’s made?</button>
+                </li>
+            </ul>
+            <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et
             </p>
-            <img src="./img/arrow-right.png" alt="стрілка в право">
+            <img class="hero-arrow" src="./img/arrow-right.png" alt="стрілка в право">
         </section>
-        <h3>100% natural</h3>
-        <h1>products</h1>
-        <ul>
-            <li>
-                <img src="./img/ice-cream.png" alt="морозиво">
-                <h3>ice cream</h3>
-                <H3>...</H3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et</p>
-                <img src="./img/arrow-right.png" alt="стрілка в право">
-            </li>
-            <li>
-                <img src="./img/ice-coffee.png" alt="холодна кава">
-                <h3>ice coffee</h3>
-                <H3>...</H3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et</p>
-                <img src="./img/arrow-right.png" alt="стрілка в право">
-            </li>
-            <li>
-                <img src="./img/milkshakes.png" alt="мілкшейк">
-                <h3>milkshakes</h3>
-                <H3>...</H3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et</p>
-                <img src="./img/arrow-right.png" alt="стрілка в право">
-            </li>
-        </ul>
-        <section>
-            <h3>tradition and love </h3>
-            <h1>how it’s made?</h1>
-            <img src="./img/cow.png" alt="">
-            <p>Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget,
-                egestas eros. Maecenas eleifend erat at justo fringilla.</p>
-            <p>Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
-                placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-                tincidunt.
-
-
-                Aliquam erat volutpat. Aenean accumsan.</p>
-            <button>Read more</button>
-            <ul>
-                <li>
-                    <img src="./img/icon1.png" alt="піктограма кавового стаканчика">
-                    <h1>721</h1>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+        <section class="products">
+            <h2 class="products-title">100% natural
+                <span class="products-slogan"> products</span>
+            </h2>
+            <ul class="products-list">
+                <li class="products-item">
+                    <img class="products-photo" src="./img/ice-cream.png" alt="морозиво">
+                    <h3 class="products-subtitle">ice cream</h3>
+                    <img src="./img/point.png" alt="крапки">
+                    <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore
+                        et</p>
+                    <img src="./img/arrow-right.png" alt="стрілка в право">
                 </li>
-                <li>
-                    <img src="./img/icon2.png" alt="піктограма відра з яблуками">
-                    <h1>16kg</h1>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                <li class="products-item">
+                    <img class="products-photo" src="./img/ice-coffee.png" alt="холодна кава">
+                    <h3 class="products-subtitle">ice coffee</h3>
+                    <img src="./img/point.png" alt="крапки">
+                    <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore
+                        et</p>
+                    <img src="./img/arrow-right.png" alt="стрілка в право">
                 </li>
-                <li>
-                    <img src="./img/icon3.png" alt="піктограма цукерки на паличці">
-                    <h1>84</h1>
-                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                <li class="products-item">
+                    <img class="products-photo" src="./img/milkshakes.png" alt="мілкшейк">
+                    <h3 class="products-subtitle">milkshakes</h3>
+                    <img src="./img/point.png" alt="крапки">
+                    <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore
+                        et</p>
+                    <img src="./img/arrow-right.png" alt="стрілка в право">
                 </li>
             </ul>
-        </section>
-        <img src="./img/collage.png" alt="колаж">
-        <img src="./img/woman.png" alt="жінка">
-        <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc,
-            accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
-        <h3>...</h3>
-        <p>Emily, Los Angeles</p>
-        <img src="./img/hr-dots.png" alt="крапочки">
-        <section>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <h4>CAFE</h4>
-                    <h5>Chicago</h5>
-                    <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul>
-                        <li>
-                            <h5>Monday - Friday</h5>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <h5>Saturday - Sunday</h5>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p>
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-                <li>
-                    <h4>FOOD TRUCK</h4>
-                    <h5>Los Angeles</h5>
-                    <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul>
-                        <li>
-                            <h5>Monday - Friday</h5>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <h5>Saturday - Sunday</h5>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p>
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-                <li>
-                    <h4>CAFE</h4>
-                    <h5>New York</h5>
-                    <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul>
-                        <li>
-                            <h5>Monday - Friday</h5>
-                            <p>06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li>
-                            <h5>Saturday - Sunday</h5>
-                            <p>08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p>
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <button>Our Locations</button>
-                </li>
-                <li>
-                    <button>Franchise</button>
-                </li>
-            </ul>
-        </section>
+            <section class="tradition">
+                <h2 class="tradition-title"> tradition and love
+                    <span class="tradition-subtitle"> how it’s made? </span>
+                </h2>
+                <img class="tradition-cow" src="./img/cow.png" alt="корова">
+                <p class="tradition-text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus,
+                    faucibus lorem eget,
+                    egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                <p class="tradition-info">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris
+                    rhoncus orci in
+                    imperdiet
+                    placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+                    tincidunt.
+                    Aliquam erat volutpat. Aenean accumsan.</p>
+                <button class="tradition-btn" type="button">Read more</button>
+                <ul class="tradition-list">
+                    <li class="tradition-item">
+                        <img class="tradition-icon" src="./img/icon1.png" alt="піктограма кавового стаканчика">
+                        <h2 class="tradition-weight">721</h2>
+                        <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                    <li class="tradition-item">
+                        <img class="tradition-icon" src="./img/icon2.png" alt="піктограма відра з яблуками">
+                        <h2 class="tradition-weight">16kg</h2>
+                        <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                    <li class="tradition-item">
+                        <img class="tradition-icon" src="./img/icon3.png" alt="піктограма цукерки на паличці">
+                        <h2 class="tradition-weight">84</h2>
+                        <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="comments">
+                <img class="comments-collage" src="./img/collage.png" alt="колаж">
+                <img class="comments-woman" src="./img/woman.png" alt="жінка">
+                <p class="comments-response">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam
+                    nunc,
+                    accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                <img class="comments-point" src="./img/point.png" alt="крапки">
+                <p class="comments-data">Emily, Los Angeles</p>
+                <img class="comments-img" src="./img/hr-dots.png" alt="крапочки">
+            </section>
+            <section class="schedule">
+                <ul class="schedule-list">
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">CAFE</h4>
+                        <h5 class="schedule-location">Chicago</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">FOOD TRUCK</h4>
+                        <h5 class="schedule-location">Los Angeles</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p  class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p  class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">CAFE</h4>
+                        <h5 class="schedule-location" >New York</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p  class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p  class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                </ul>
+                <ul class="schedule-bottons">
+                    <li class="schedule-component">
+                        <button class="schedule-btn" type="button">Our Locations</button>
+                    </li>
+                    <li class="schedule-component">
+                        <button class="schedule-franchise" type="button">Franchise</button>
+                    </li>
+                </ul>
+            </section>
     </main>
-    <footer>
-        <h3>homemade ice cream made </h3>
-        <h1>with passion</h1>
-        <ul>
-            <li>                <img src="./img/github.png" alt="гіт хаб">
-            </li>
-            <li>
-                <img src="./img/telegram.png" alt="телеграм">
-            </li>
-            <li>
-                <img src="./img/facebook.png" alt="фейсбук">
-            </li>
-        </ul>
-        <p>Feel free to contact <span>+61 (0) 383 766 284</span></p>
-        <p>© 2019 - IceCream. All Rights Reserved. </p>
+    <footer class="footer">
+        <h3 class="footer-title">homemade ice cream made <span class="footer-passion">with passion</span>
+        </h3>
+        <nav class="footer-nav">
+            <ul class="footer-list">
+                <li class="footer-item"> <img class="footer-img" src="./img/github.png" alt="гіт хаб">
+                </li>
+                <li class="footer-item">
+                    <img class="footer-img" src="./img/telegram.png" alt="телеграм">
+                </li>
+                <li class="footer-item">
+                    <img src="./img/facebook.png" alt="фейсбук">
+                </li>
+            </ul>
+        </nav>
+        <p class="footer-info">Feel free to contact <span class="footer-number">+61 (0) 383 766 284</span></p>
+        <p class="footer-subtext">© 2019 - IceCream. All Rights Reserved. </p>
     </footer>
 </body>
 
