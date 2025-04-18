@@ -23,13 +23,18 @@ body {
     width: 1080px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid red ;
+    outline: solid red;
     margin-left: auto;
     margin-right: auto;
 }
 
 header {
     background-color: var(--background-color);
+    padding-top: 37px;
+}
+
+.header-img {
+    width: 199px;
 }
 
 .header-link:hover {
@@ -47,7 +52,6 @@ header {
 .header-button {
     color: var(--decorative-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 700;
     display: flex;
     width: 69px;
@@ -57,12 +61,19 @@ header {
     flex-shrink: 0;
 }
 
+
 .hero-title {
     font-family: "Titan One";
     font-size: 38px;
     font-weight: 400;
     letter-spacing: 1.52px;
     text-transform: uppercase;
+}
+
+.hero-arrow {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
 }
 
 .hero-passion {
@@ -106,6 +117,8 @@ header {
 
 .hero {
     background-color: var(--background-color);
+    padding-top: 73px;
+    padding-bottom: 56px;
 }
 
 .hero-text {
@@ -113,6 +126,23 @@ header {
     font-weight: 400;
     line-height: 140%;
     /* 19.6px */
+}
+
+.products {
+    padding-top: 127px;
+    padding-bottom: 119;
+}
+
+.products-photo {
+    width: 335px;
+}
+
+.products-arrow {
+    width: 40px;
+    height: 40px;
+}
+.products-point{
+    width: 26px;
 }
 
 .products-slogan {
@@ -148,10 +178,14 @@ header {
 .products-text {
     color: var(--text-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 700;
     line-height: 176%;
     letter-spacing: 0.64px;
+}
+
+.tradition {
+    padding-top: 125px;
+    padding-bottom: 139px;
 }
 
 .tradition-title {
@@ -174,9 +208,25 @@ header {
     text-transform: uppercase;
 }
 
+.tradition-cow {
+    width: 516px;
+    height: 516px;
+}
+
+.tradition-coffee {
+    width: 33px;
+}
+
+.tradition-aple {
+    width: 50px;
+}
+
+.tradition-candy {
+    width: 44px;
+}
+
 .tradition-text {
     color: var(--important-сolor);
-    font-size: 16px;
     font-weight: 500;
     line-height: 176%;
     letter-spacing: 0.64px;
@@ -209,16 +259,34 @@ header {
 
 .tradition-description {
     color: var(--important-сolor);
-    font-size: 16px;
     font-weight: 700;
     line-height: 176%;
     letter-spacing: 0.32px;
 }
 
+.comments {
+    padding-bottom: 132px;
+}
+
+.comments-collage {
+    /* width: 1280px; */
+}
+
+.comments-woman {
+    width: 85px;
+}
+
+.comments-point {
+    width: 32px;
+}
+
+.comments-img {
+    width: 72.395px;
+}
+
 .comments-response {
     color: var(--important-сolor);
     text-align: center;
-    font-size: 16px;
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
@@ -235,7 +303,6 @@ header {
 .schedule-institution {
     color: var(--text-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
@@ -243,7 +310,6 @@ header {
 
 .schedule-location {
     color: var(--text-color);
-    font-size: 16px;
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
@@ -251,7 +317,6 @@ header {
 
 .schedule-text {
     color: var(--p-color);
-    font-size: 16px;
     font-weight: 500;
     line-height: 183%;
     letter-spacing: 0.64px;
@@ -259,7 +324,6 @@ header {
 
 .schedule-days {
     color: var(--important-сolor);
-    font-size: 16px;
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
@@ -267,7 +331,6 @@ header {
 
 .schedule-time {
     color: var(--title-color);
-    font-size: 16px;
     font-weight: 500;
     line-height: 186%;
 }
@@ -282,15 +345,18 @@ header {
 .schedule-btn {
     color: var(--text-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 700;
 }
 
 .schedule-franchise {
     color: var(--decorative-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 700;
+}
+
+.footer {
+    padding-top: 165px;
+    padding-bottom: 10px;
 }
 
 .footer-title {
@@ -311,9 +377,12 @@ header {
     text-transform: uppercase;
 }
 
+.footer-img{
+    width: 34px;
+}
+
 .footer-info {
     color: var(--important-сolor);
-    font-size: 16px;
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.32px;
@@ -321,7 +390,6 @@ header {
 
 .footer-number {
     color: var(--decorative-color);
-    font-size: 16px;
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.32px;

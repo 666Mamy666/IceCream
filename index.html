@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -81,32 +85,32 @@
                     <li class="products-item">
                         <img class="products-photo" src="./img/ice-cream.png" alt="морозиво">
                         <h3 class="products-subtitle">ice cream</h3>
-                        <img src="./img/point.png" alt="крапки">
+                        <img class="products-point"  src="./img/point.png" alt="крапки">
                         <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore
                             et</p>
-                        <img src="./img/arrow-right.png" alt="стрілка в право">
+                        <img class="products-arrow" src="./img/arrow-right.png" alt="стрілка в право">
                     </li>
                     <li class="products-item">
                         <img class="products-photo" src="./img/ice-coffee.png" alt="холодна кава">
                         <h3 class="products-subtitle">ice coffee</h3>
-                        <img src="./img/point.png" alt="крапки">
+                        <img class="products-point" class="products-arrow" src="./img/point.png" alt="крапки">
                         <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore
                             et</p>
-                        <img src="./img/arrow-right.png" alt="стрілка в право">
+                        <img class="products-arrow" src="./img/arrow-right.png" alt="стрілка в право">
                     </li>
                     <li class="products-item">
                         <img class="products-photo" src="./img/milkshakes.png" alt="мілкшейк">
                         <h3 class="products-subtitle">milkshakes</h3>
-                        <img src="./img/point.png" alt="крапки">
+                        <img class="products-point" src="./img/point.png" alt="крапки">
                         <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore
                             et</p>
-                        <img src="./img/arrow-right.png" alt="стрілка в право">
+                        <img class="products-arrow" src="./img/arrow-right.png" alt="стрілка в право">
                     </li>
                 </ul>
             </div>
@@ -129,124 +133,124 @@
                 <button class="tradition-btn" type="button">Read more</button>
                 <ul class="tradition-list">
                     <li class="tradition-item">
-                        <img class="tradition-icon" src="./img/icon1.png" alt="піктограма кавового стаканчика">
+                        <img width="33px" class="tradition-icon tradition-coffee" src="./img/icon1.png" alt="піктограма кавового стаканчика">
                         <h2 class="tradition-weight">721</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="tradition-item">
-                        <img class="tradition-icon" src="./img/icon2.png" alt="піктограма відра з яблуками">
+                        <img width="50px" class="tradition-icon tradition-aple" src="./img/icon2.png" alt="піктограма відра з яблуками">
                         <h2 class="tradition-weight">16kg</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="tradition-item">
-                        <img class="tradition-icon" src="./img/icon3.png" alt="піктограма цукерки на паличці">
+                        <img width="44px" class="tradition-icon tradition-candy" src="./img/icon3.png" alt="піктограма цукерки на паличці">
                         <h2 class="tradition-weight">84</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <div class="container">
         <section class="comments">
-            <img class="comments-collage" src="./img/collage.png" alt="колаж">
-            <img class="comments-woman" src="./img/woman.png" alt="жінка">
-            <p class="comments-response">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
-                sem. In hendrerit nulla quam
-                nunc,
-                accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
-            <img class="comments-point" src="./img/point.png" alt="крапки">
-            <p class="comments-data">Emily, Los Angeles</p>
-            <img class="comments-img" src="./img/hr-dots.png" alt="крапочки">
-        </div>
+            <div class="container">
+                <img class="comments-collage" src="./img/collage.png" alt="колаж">
+                <img class="comments-woman" src="./img/woman.png" alt="жінка">
+                <p class="comments-response">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
+                    sem. In hendrerit nulla quam
+                    nunc,
+                    accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                <img class="comments-point" src="./img/point.png" alt="крапки">
+                <p class="comments-data">Emily, Los Angeles</p>
+                <img width="" class="comments-img" src="./img/hr-dots.png" alt="крапочки">
+            </div>
         </section>
         <section class="schedule">
             <div class="container">
-            <ul class="schedule-list">
-                <li class="schedule-item">
-                    <h4 class="schedule-institution">CAFE</h4>
-                    <h5 class="schedule-location">Chicago</h5>
-                    <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul class="schedule-items">
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Monday - Friday</h5>
-                            <p class="schedule-time">06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Saturday - Sunday</h5>
-                            <p class="schedule-time">08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p class="schedule-subtext">
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-                <li class="schedule-item">
-                    <h4 class="schedule-institution">FOOD TRUCK</h4>
-                    <h5 class="schedule-location">Los Angeles</h5>
-                    <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul class="schedule-items">
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Monday - Friday</h5>
-                            <p class="schedule-time">06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Saturday - Sunday</h5>
-                            <p class="schedule-time">08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p class="schedule-subtext">
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-                <li class="schedule-item">
-                    <h4 class="schedule-institution">CAFE</h4>
-                    <h5 class="schedule-location">New York</h5>
-                    <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-                    <ul class="schedule-items">
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Monday - Friday</h5>
-                            <p class="schedule-time">06:00 AM - 10:00 PM</p>
-                        </li>
-                        <li class="schedule-element">
-                            <h5 class="schedule-days">Saturday - Sunday</h5>
-                            <p class="schedule-time">08:00 AM - 16:00 PM</p>
-                        </li>
-                    </ul>
-                    <p class="schedule-subtext">
-                        Fusce ut velit laoreet, tempus arcu molestie vulputate
-                    </p>
-                </li>
-            </ul>
-            <ul class="schedule-bottons">
-                <li class="schedule-component">
-                    <button class="schedule-btn" type="button">Our Locations</button>
-                </li>
-                <li class="schedule-component">
-                    <button class="schedule-franchise" type="button">Franchise</button>
-                </li>
-            </ul>
-        </div>
+                <ul class="schedule-list">
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">CAFE</h4>
+                        <h5 class="schedule-location">Chicago</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">FOOD TRUCK</h4>
+                        <h5 class="schedule-location">Los Angeles</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                    <li class="schedule-item">
+                        <h4 class="schedule-institution">CAFE</h4>
+                        <h5 class="schedule-location">New York</h5>
+                        <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <ul class="schedule-items">
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <p class="schedule-time">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="schedule-element">
+                                <h5 class="schedule-days">Saturday - Sunday</h5>
+                                <p class="schedule-time">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                        <p class="schedule-subtext">
+                            Fusce ut velit laoreet, tempus arcu molestie vulputate
+                        </p>
+                    </li>
+                </ul>
+                <ul class="schedule-bottons">
+                    <li class="schedule-component">
+                        <button class="schedule-btn" type="button">Our Locations</button>
+                    </li>
+                    <li class="schedule-component">
+                        <button class="schedule-franchise" type="button">Franchise</button>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-        <h3 class="footer-title">homemade ice cream made <span class="footer-passion">with passion</span>
-        </h3>
-        <nav class="footer-nav">
-            <ul class="footer-list">
-                <li class="footer-item"> <img class="footer-img" src="./img/github.png" alt="гіт хаб">
-                </li>
-                <li class="footer-item">
-                    <img class="footer-img" src="./img/telegram.png" alt="телеграм">
-                </li>
-                <li class="footer-item">
-                    <img src="./img/facebook.png" alt="фейсбук">
-                </li>
-            </ul>
-        </nav>
-        <p class="footer-info">Feel free to contact <span class="footer-number">+61 (0) 383 766 284</span></p>
-        <p class="footer-subtext">© 2019 - IceCream. All Rights Reserved. </p>
-    </div>
+            <h3 class="footer-title">homemade ice cream made <span class="footer-passion">with passion</span>
+            </h3>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li class="footer-item"> <img class="footer-img" src="./img/github.png" alt="гіт хаб">
+                    </li>
+                    <li class="footer-item">
+                        <img class="footer-img" src="./img/telegram.png" alt="телеграм">
+                    </li>
+                    <li class="footer-item">
+                        <img class="footer-img" src="./img/facebook.png" alt="фейсбук">
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer-info">Feel free to contact <span class="footer-number">+61 (0) 383 766 284</span></p>
+            <p class="footer-subtext">© 2019 - IceCream. All Rights Reserved. </p>
+        </div>
     </footer>
 </body>
 
