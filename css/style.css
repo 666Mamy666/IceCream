@@ -33,6 +33,16 @@ header {
     padding-top: 37px;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .header-img {
     width: 199px;
 }
@@ -49,16 +59,25 @@ header {
     text-decoration-skip-ink: none;
 }
 
+.header-list {
+    display: flex;
+    gap: 35px;
+    margin-left: 110px;
+
+}
+
 .header-button {
     color: var(--decorative-color);
     text-align: center;
     font-weight: 700;
     display: flex;
-    width: 69px;
+    width: 159px;
     height: 44px;
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    margin-left: auto;
 }
 
 
@@ -68,6 +87,27 @@ header {
     font-weight: 400;
     letter-spacing: 1.52px;
     text-transform: uppercase;
+}
+
+.hero-blok {
+    display: flex;
+    outline: solid green;
+    max-width: 277px;
+    flex-wrap: wrap;
+
+}
+.hero-wraper{
+    display: flex;
+}
+.hero-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-buttons {
+    display: flex;
+    margin-top: 36px;
+    gap: 17px;
 }
 
 .hero-arrow {
@@ -106,6 +146,15 @@ header {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
+    color: #FFF;
+    display: block;
+    width: 102px;
+    height: 40px;
+    background-color: var(--decorative-color);
+    border-radius: 35px;
+    border: none;
+
+
 }
 
 .hero-made {
@@ -113,6 +162,13 @@ header {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-color: var(--text-color);
+    border-radius: 35px;
+    border: none;
+
 }
 
 .hero {
@@ -133,6 +189,11 @@ header {
     padding-bottom: 119;
 }
 
+.products-list {
+    display: flex;
+
+}
+
 .products-photo {
     width: 335px;
 }
@@ -141,7 +202,8 @@ header {
     width: 40px;
     height: 40px;
 }
-.products-point{
+
+.products-point {
     width: 26px;
 }
 
@@ -377,7 +439,7 @@ header {
     text-transform: uppercase;
 }
 
-.footer-img{
+.footer-img {
     width: 34px;
 }
 

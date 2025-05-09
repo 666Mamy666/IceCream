@@ -17,7 +17,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="header-nav">
                 <a class="header-logo" href="./index.html">
                     <img class="header-img" src="./img/logo.png" alt="logo">
@@ -46,29 +46,34 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">
-                    ice cream
-                    made with
-                    <span class="hero-passion">passion</span>
-                </h1>
-                <ul class="hero-list">
-                    <li class="hero-item">
-                        <h3 class="hero-number">16</h3>
-                        <p class="hero-product">cafes</p>
-                    </li>
-                    <li class="hero-item">
-                        <h3 class="hero-number">23</h3>
-                        <p class="hero-product">food trucks</p>
-                    </li>
-                </ul>
-                <ul class="hero-buttons">
-                    <li class="hero-button">
-                        <button class="hero-product" type="button">Products</button>
-                    </li>
-                    <li class="hero-button">
-                        <button class="hero-made" type="button">How it’s made?</button>
-                    </li>
-                </ul>
+                <div class="hero-wraper">
+                    <div class="hero-blok">
+                        <h1 class="hero-title">
+                            ice cream
+                            made with
+                            <span class="hero-passion">passion</span>
+                        </h1>
+                        <ul class="hero-buttons">
+                            <li class="hero-button">
+                                <button class="hero-product" type="button">Products</button>
+                            </li>
+                            <li class="hero-button">
+                                <button class="hero-made" type="button">How it’s made?</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="hero-list">
+                        <li class="hero-item">
+                            <h3 class="hero-number">16</h3>
+                            <p class="hero-product">cafes</p>
+                        </li>
+                        <li class="hero-item">
+                            <h3 class="hero-number">23</h3>
+                            <p class="hero-product">food trucks</p>
+                        </li>
+                    </ul>
+                </div>
+
                 <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt
                     ut labore et
@@ -85,7 +90,7 @@
                     <li class="products-item">
                         <img class="products-photo" src="./img/ice-cream.png" alt="морозиво">
                         <h3 class="products-subtitle">ice cream</h3>
-                        <img class="products-point"  src="./img/point.png" alt="крапки">
+                        <img class="products-point" src="./img/point.png" alt="крапки">
                         <p class="products-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore
@@ -133,17 +138,20 @@
                 <button class="tradition-btn" type="button">Read more</button>
                 <ul class="tradition-list">
                     <li class="tradition-item">
-                        <img width="33px" class="tradition-icon tradition-coffee" src="./img/icon1.png" alt="піктограма кавового стаканчика">
+                        <img width="33px" class="tradition-icon tradition-coffee" src="./img/icon1.png"
+                            alt="піктограма кавового стаканчика">
                         <h2 class="tradition-weight">721</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="tradition-item">
-                        <img width="50px" class="tradition-icon tradition-aple" src="./img/icon2.png" alt="піктограма відра з яблуками">
+                        <img width="50px" class="tradition-icon tradition-aple" src="./img/icon2.png"
+                            alt="піктограма відра з яблуками">
                         <h2 class="tradition-weight">16kg</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
                     <li class="tradition-item">
-                        <img width="44px" class="tradition-icon tradition-candy" src="./img/icon3.png" alt="піктограма цукерки на паличці">
+                        <img width="44px" class="tradition-icon tradition-candy" src="./img/icon3.png"
+                            alt="піктограма цукерки на паличці">
                         <h2 class="tradition-weight">84</h2>
                         <p class="tradition-description">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                     </li>
