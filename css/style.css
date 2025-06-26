@@ -78,6 +78,10 @@ header {
     justify-content: center;
     flex-shrink: 0;
     margin-left: auto;
+    display: block;
+    background-color: var(--text-color);
+    border-radius: 35px;
+    border: none;
 }
 
 
@@ -96,12 +100,29 @@ header {
     flex-wrap: wrap;
 
 }
-.hero-wraper{
+
+.hero-wraper {
     display: flex;
 }
-.hero-list{
+
+.hero-list {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    outline: solid green;
+    width: 100%;
+    gap: 18px;
+}
+
+.hero-item:first-child {
+    width: 72px;
+    outline: solid yellow;
+
+}
+
+.hero-item:last-child {
+    width: 92px;
+    outline: solid blue;
 }
 
 .hero-buttons {
@@ -110,10 +131,37 @@ header {
     gap: 17px;
 }
 
+.hero-box {
+    display: flex;
+    outline: solid orange;
+    align-items: center;
+}
+
+.hero-photo {
+    width: 188px;
+    height: 191px;
+    margin: 30px;
+}
+
+.hero-text {
+    max-width: 200px;
+    outline: solid black;
+}
+
+.hero-btn {
+    display: block;
+    margin-top: 20px;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
 .hero-arrow {
     width: 26px;
     height: 26px;
-    flex-shrink: 0;
 }
 
 .hero-passion {
@@ -136,11 +184,11 @@ header {
     text-transform: uppercase;
 }
 
-.hero-product {
+/* .hero-product {
     text-align: right;
     font-size: 14px;
     font-weight: 400;
-}
+} */
 
 .hero-product {
     text-align: center;
@@ -189,22 +237,62 @@ header {
     padding-bottom: 119;
 }
 
+.products-title {
+    max-width: 350px;
+    text-align: center;
+    outline: solid green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+}
+
+.products-btn {
+    display: block;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-text {
+    max-width: 341px;
+}
+
 .products-list {
     display: flex;
+    gap: 30px;
 
+}
+
+.products-item:first-child {
+    background-color: var(--title-color);
+    border-radius: 24px;
+}
+
+.products-item:nth-last-child(2) {
+    background-color: #F0D1A5;
+    border-radius: 24px;
+}
+
+.products-item:last-child {
+    background-color: #C2E297;
+    border-radius: 24px;
 }
 
 .products-photo {
     width: 335px;
 }
 
-.products-arrow {
-    width: 40px;
-    height: 40px;
-}
-
 .products-point {
     width: 26px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .products-slogan {
@@ -235,6 +323,8 @@ header {
     font-weight: 400;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    margin-top: 38px;
+    margin-bottom: 32px;
 }
 
 .products-text {
@@ -243,11 +333,13 @@ header {
     font-weight: 700;
     line-height: 176%;
     letter-spacing: 0.64px;
+    margin-bottom: 62px;
 }
 
 .tradition {
     padding-top: 125px;
     padding-bottom: 139px;
+    background-color: #FFF5F6;
 }
 
 .tradition-title {
@@ -258,6 +350,20 @@ header {
     font-weight: 400;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 125px;
+}
+
+.tradition-box {
+    outline: solid green;
+    max-width: 463px;
+}
+
+.tradition-block {
+    display: flex;
+    align-items: center;
 }
 
 .tradition-subtitle {
@@ -268,11 +374,17 @@ header {
     font-weight: 400;
     letter-spacing: 3.48px;
     text-transform: uppercase;
+    display: block;
 }
 
 .tradition-cow {
     width: 516px;
     height: 516px;
+    margin-right: 74px;
+}
+
+.tradition-icon {
+    margin-bottom: 40px;
 }
 
 .tradition-coffee {
@@ -292,6 +404,7 @@ header {
     font-weight: 500;
     line-height: 176%;
     letter-spacing: 0.64px;
+    margin-bottom: 35px;
 }
 
 .tradition-info {
@@ -300,6 +413,7 @@ header {
     font-weight: 500;
     line-height: 194%;
     letter-spacing: 0.56px;
+    margin-bottom: 45px;
 }
 
 .tradition-btn {
@@ -307,6 +421,21 @@ header {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    display: block;
+    background-color: var(--text-color);
+    border-radius: 35px;
+    border: none;
+    width: 176px;
+    height: 44px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.tradition-list {
+    display: flex;
+    gap: 30px;
 }
 
 .tradition-weight {
@@ -317,6 +446,8 @@ header {
     font-weight: 400;
     letter-spacing: 2.32px;
     text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 15px;
 }
 
 .tradition-description {
@@ -336,14 +467,24 @@ header {
 
 .comments-woman {
     width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 123px;
+    margin-bottom: 62px;
 }
 
 .comments-point {
     width: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 54px;
+    padding-bottom: 15px;
 }
 
 .comments-img {
     width: 72.395px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comments-response {
@@ -352,6 +493,9 @@ header {
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
+    max-width: 813px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comments-data {
@@ -360,6 +504,7 @@ header {
     font-size: 20px;
     font-weight: 500;
     line-height: 186%;
+    padding-bottom: 35px;
 }
 
 .schedule-institution {
@@ -368,10 +513,48 @@ header {
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
+    padding-bottom: 32px;
+    background-color: #F0D1A5;
+    width: 73px;
+    height: 28px;
+    margin-bottom: 32px;
+    border-radius: 6px;
+}
+
+.schedule-green {
+    background-color: #C2E297;
+    width: 138px;
+    height: 28px;
+
+}
+
+.schedule-list {
+    display: flex;
+    gap: 31px;
+}
+
+.schedule-item {
+    max-width: 330;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
+    padding-left: 43px;
+    padding-top: 51px;
+    padding-bottom: 62px;
+}
+
+.schedule-number {
+    color: var(--p-color);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183%;
+    max-width: 243px;
 }
 
 .schedule-location {
-    color: var(--text-color);
+    color: var(--important-сolor);
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
@@ -382,6 +565,8 @@ header {
     font-weight: 500;
     line-height: 183%;
     letter-spacing: 0.64px;
+    padding-top: 10px;
+    padding-bottom: 64px;
 }
 
 .schedule-days {
@@ -395,6 +580,11 @@ header {
     color: var(--title-color);
     font-weight: 500;
     line-height: 186%;
+    padding-bottom: 15px;
+}
+
+.schedule-weekend {
+    padding-bottom: 64px;
 }
 
 .schedule-subtext {
@@ -403,17 +593,31 @@ header {
     font-weight: 500;
     line-height: 183%;
 }
-
+.schedule-bottons{
+    display: flex;
+    justify-content: center;
+    padding-top: 86px;
+}
 .schedule-btn {
     color: var(--text-color);
     text-align: center;
     font-weight: 700;
+    border-radius: 22px;
+    background: var(--decorative-color);
+    width: 198px;
+    height: 44px;
+    border: none;
 }
 
 .schedule-franchise {
     color: var(--decorative-color);
     text-align: center;
     font-weight: 700;
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    background: var(--text-color);
+    border: none;
 }
 
 .footer {
@@ -428,6 +632,8 @@ header {
     font-weight: 400;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    max-width: 480px;
+    outline: solid blue;
 }
 
 .footer-passion {
@@ -439,8 +645,27 @@ header {
     text-transform: uppercase;
 }
 
+.footer-block{
+    display: flex;
+    outline: solid green;
+    max-width: 340px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+
+}
+.footer-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    gap: 24px;
+}
+
 .footer-img {
     width: 34px;
+    display: block;
 }
 
 .footer-info {
@@ -448,6 +673,7 @@ header {
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.32px;
+    margin-top: 50px;
 }
 
 .footer-number {
@@ -463,4 +689,6 @@ header {
     font-weight: 700;
     line-height: 186%;
     letter-spacing: 0.28px;
+    margin-top: 106px;
+    text-align: center;
 }
