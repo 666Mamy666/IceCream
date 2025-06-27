@@ -272,16 +272,19 @@ header {
 .products-item:first-child {
     background-color: var(--title-color);
     border-radius: 24px;
+    padding-bottom: 50px;
 }
 
 .products-item:nth-last-child(2) {
     background-color: #F0D1A5;
     border-radius: 24px;
+    padding-bottom: 50px;
 }
 
 .products-item:last-child {
     background-color: #C2E297;
     border-radius: 24px;
+    padding-bottom: 50px;
 }
 
 .products-photo {
@@ -478,7 +481,7 @@ header {
     width: 32px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 54px;
+    margin-top: 54px;
     margin-bottom: 15px;
 }
 
@@ -506,6 +509,9 @@ header {
     font-weight: 500;
     line-height: 186%;
     margin-bottom: 35px;
+}
+.schedule{
+    background-color: #FFF5F6;
 }
 
 .schedule-institution {
@@ -540,6 +546,7 @@ header {
     background: #FFF;
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
     padding-left: 43px;
+    padding-right: 43px;
     padding-top: 51px;
     padding-bottom: 62px;
 }
@@ -598,6 +605,7 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 86px;
+    gap: 15px;
 }
 .schedule-btn {
     color: var(--text-color);
@@ -624,6 +632,7 @@ header {
 .footer {
     padding-top: 165px;
     padding-bottom: 10px;
+    background-color: #FFF5F6;
 }
 
 .footer-title {
