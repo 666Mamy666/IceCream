@@ -357,7 +357,7 @@ header {
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .tradition-box {
@@ -510,7 +510,8 @@ header {
     line-height: 186%;
     margin-bottom: 35px;
 }
-.schedule{
+
+.schedule {
     background-color: #FFF5F6;
 }
 
@@ -601,12 +602,14 @@ header {
     font-weight: 500;
     line-height: 183%;
 }
-.schedule-bottons{
+
+.schedule-bottons {
     display: flex;
     justify-content: center;
-    padding-top: 86px;
+    margin-top: 86px;
     gap: 15px;
 }
+
 .schedule-btn {
     color: var(--text-color);
     text-align: center;
@@ -655,7 +658,7 @@ header {
     text-transform: uppercase;
 }
 
-.footer-block{
+.footer-block {
     display: flex;
     outline: solid green;
     max-width: 340px;
@@ -664,11 +667,13 @@ header {
 
 
 }
-.footer-wraper{
+
+.footer-wraper {
     display: flex;
     justify-content: space-between;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     gap: 24px;
 }
@@ -701,4 +706,7 @@ header {
     letter-spacing: 0.28px;
     margin-top: 106px;
     text-align: center;
+    border-top: solid #E1E1E1;
+    padding-top: 9px;
+
 }
