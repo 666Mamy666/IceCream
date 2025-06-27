@@ -340,6 +340,7 @@ header {
     padding-top: 125px;
     padding-bottom: 139px;
     background-color: #FFF5F6;
+    padding-bottom: 125px;
 }
 
 .tradition-title {
@@ -353,7 +354,7 @@ header {
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 125px;
+    
 }
 
 .tradition-box {
@@ -478,7 +479,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding-top: 54px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .comments-img {
@@ -504,7 +505,7 @@ header {
     font-size: 20px;
     font-weight: 500;
     line-height: 186%;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .schedule-institution {
@@ -565,8 +566,8 @@ header {
     font-weight: 500;
     line-height: 183%;
     letter-spacing: 0.64px;
-    padding-top: 10px;
-    padding-bottom: 64px;
+    margin-top: 10px;
+    margin-bottom: 64px;
 }
 
 .schedule-days {
@@ -580,11 +581,11 @@ header {
     color: var(--title-color);
     font-weight: 500;
     line-height: 186%;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .schedule-weekend {
-    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 .schedule-subtext {
