@@ -23,7 +23,6 @@ body {
     width: 1080px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid red;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +94,6 @@ header {
 
 .hero-blok {
     display: flex;
-    outline: solid green;
     max-width: 277px;
     flex-wrap: wrap;
 
@@ -109,20 +107,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    outline: solid green;
     width: 100%;
     gap: 18px;
 }
 
 .hero-item:first-child {
     width: 72px;
-    outline: solid yellow;
 
 }
 
 .hero-item:last-child {
     width: 92px;
-    outline: solid blue;
 }
 
 .hero-buttons {
@@ -133,7 +128,6 @@ header {
 
 .hero-box {
     display: flex;
-    outline: solid orange;
     align-items: center;
 }
 
@@ -145,7 +139,6 @@ header {
 
 .hero-text {
     max-width: 200px;
-    outline: solid black;
 }
 
 .hero-btn {
@@ -240,7 +233,6 @@ header {
 .products-title {
     max-width: 350px;
     text-align: center;
-    outline: solid green;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 49px;
@@ -361,7 +353,6 @@ header {
 }
 
 .tradition-box {
-    outline: solid green;
     max-width: 463px;
 }
 
@@ -646,7 +637,6 @@ header {
     letter-spacing: 1.2px;
     text-transform: uppercase;
     max-width: 480px;
-    outline: solid blue;
 }
 
 .footer-passion {
@@ -660,7 +650,6 @@ header {
 
 .footer-block {
     display: flex;
-    outline: solid green;
     max-width: 340px;
     flex-wrap: wrap;
     justify-content: flex-end;
