@@ -83,6 +83,19 @@ header {
     border: none;
 }
 
+.hero {
+    background-color: var(--background-color);
+
+}
+
+.hero-container {
+    background-image: url("../img/woman-hero.png"), url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, 477px 37px, 358px 52px;
+    padding-top: 73px;
+    padding-bottom: 56px;
+}
+
 
 .hero-title {
     font-family: "Titan One";
@@ -212,11 +225,7 @@ header {
 
 }
 
-.hero {
-    background-color: var(--background-color);
-    padding-top: 73px;
-    padding-bottom: 56px;
-}
+
 
 .hero-text {
     font-size: 14px;
@@ -227,7 +236,7 @@ header {
 
 .products {
     padding-top: 127px;
-    padding-bottom: 119;
+    padding-bottom: 119px;
 }
 
 .products-title {
@@ -336,6 +345,9 @@ header {
     padding-bottom: 139px;
     background-color: #FFF5F6;
     padding-bottom: 125px;
+    background-image: url("../img/milk-splashes.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tradition-title {
@@ -456,6 +468,12 @@ header {
     padding-bottom: 132px;
 }
 
+.comments-container {
+    background-image: url(../img/quotes.png);
+    background-repeat: no-repeat;
+    background-position: 107px 605px;
+}
+
 .comments-collage {
     /* width: 1280px; */
 }
@@ -491,6 +509,17 @@ header {
     max-width: 813px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FAFAFA;
+    width: 926px;
+    height: 138px;
+    padding-top: 47px;
+}
+
+.comments-response::first-line {
+    border-bottom: #E1E1E1;
+    width: 813px;
+    height: 0px; 
+
 }
 
 .comments-data {
@@ -504,7 +533,11 @@ header {
 
 .schedule {
     background-color: #FFF5F6;
+    background-image: url(../img/schedule-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 102px;
 }
+
 
 .schedule-institution {
     color: var(--text-color);
@@ -518,6 +551,7 @@ header {
     height: 28px;
     margin-bottom: 32px;
     border-radius: 6px;
+
 }
 
 .schedule-green {
