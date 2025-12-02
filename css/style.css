@@ -46,6 +46,12 @@ header {
     width: 199px;
 }
 
+.header-icon {
+    height: 50px;
+    width: 199px;
+
+}
+
 .header-link:hover {
     color: var(--decorative-color);
     font-weight: 700;
@@ -165,9 +171,11 @@ header {
     padding: 0;
 }
 
-.hero-arrow {
+.hero-icon {
     width: 26px;
     height: 26px;
+    fill: white;
+    stroke: var(--decorative-color) ;
 }
 
 .hero-passion {
@@ -518,7 +526,7 @@ header {
 .comments-response::first-line {
     border-bottom: #E1E1E1;
     width: 813px;
-    height: 0px; 
+    height: 0px;
 
 }
 
