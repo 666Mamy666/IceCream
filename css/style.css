@@ -165,17 +165,17 @@ header {
     margin-top: 20px;
     width: 26px;
     height: 26px;
-    background-color: transparent;
+    background-color: white;
     outline: none;
     border: none;
     padding: 0;
+    border-radius: 20px;
 }
 
 .hero-icon {
-    width: 26px;
-    height: 26px;
-    fill: white;
-    stroke: var(--decorative-color) ;
+    fill: var(--decorative-color);
+    width: 10px;
+    height: 10px;
 }
 
 .hero-passion {
@@ -256,7 +256,6 @@ header {
 }
 
 .products-btn {
-    display: block;
     margin-top: 20px;
     width: 40px;
     height: 40px;
@@ -266,6 +265,17 @@ header {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products-icon{
+fill: var(--decorative-color);
+    width: 15px;
+    height: 15px;
+    
 }
 
 .products-text {
