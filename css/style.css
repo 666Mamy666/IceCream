@@ -1,201 +1,195 @@
 :root {
-    --background-color: #FFB8CA;
+  --background-color: #ffb8ca;
 
-    --decorative-color: #D41443;
+  --decorative-color: #d41443;
 
-    --text-color: #FFFFFF;
+  --text-color: #ffffff;
 
-    --title-color: #FFA5BA;
+  --title-color: #ffa5ba;
 
-    --p-color: #907E82;
+  --p-color: #907e82;
 
-    --important-сolor: #000;
+  --important-сolor: #000;
 }
 
 body {
-    color: var(--text-color);
-    font-family: "DM Sans";
-    font-size: 16px;
-
+  color: var(--text-color);
+  font-family: "DM Sans";
+  font-size: 16px;
 }
 
 .container {
-    width: 1080px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
-    background-color: var(--background-color);
-    padding-top: 37px;
+  background-color: var(--background-color);
+  padding-top: 37px;
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-img {
-    width: 199px;
+  width: 199px;
 }
 
 .header-icon {
-    height: 50px;
-    width: 199px;
-
+  height: 50px;
+  width: 199px;
 }
 
 .header-link:hover {
-    color: var(--decorative-color);
-    font-weight: 700;
-    text-decoration-skip-ink: none;
+  color: var(--decorative-color);
+  font-weight: 700;
+  text-decoration-skip-ink: none;
 }
 
 .header-link {
-    color: inherit;
-    font-weight: 700;
-    text-decoration-skip-ink: none;
+  color: inherit;
+  font-weight: 700;
+  text-decoration-skip-ink: none;
 }
 
 .header-list {
-    display: flex;
-    gap: 35px;
-    margin-left: 110px;
-
+  display: flex;
+  gap: 35px;
+  margin-left: 110px;
 }
 
 .header-button {
-    color: var(--decorative-color);
-    text-align: center;
-    font-weight: 700;
-    display: flex;
-    width: 159px;
-    height: 44px;
-    flex-shrink: 0;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-left: auto;
-    display: block;
-    background-color: var(--text-color);
-    border-radius: 35px;
-    border: none;
+  color: var(--decorative-color);
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  width: 159px;
+  height: 44px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+  display: block;
+  background-color: var(--text-color);
+  border-radius: 35px;
+  border: none;
 }
 
 .hero {
-    background-color: var(--background-color);
-
+  background-color: var(--background-color);
 }
 
 .hero-container {
-    background-image: url("../img/woman-hero.png"), url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
-    background-repeat: no-repeat;
-    background-position: bottom right, 477px 37px, 358px 52px;
-    padding-top: 73px;
-    padding-bottom: 56px;
+  background-image: url("../img/woman-hero.png"),
+    url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, 477px 37px, 358px 52px;
+  padding-top: 73px;
+  padding-bottom: 56px;
 }
 
-
 .hero-title {
-    font-family: "Titan One";
-    font-size: 38px;
-    font-weight: 400;
-    letter-spacing: 1.52px;
-    text-transform: uppercase;
+  font-family: "Titan One";
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1.52px;
+  text-transform: uppercase;
 }
 
 .hero-blok {
-    display: flex;
-    max-width: 277px;
-    flex-wrap: wrap;
-
+  display: flex;
+  max-width: 277px;
+  flex-wrap: wrap;
 }
 
 .hero-wraper {
-    display: flex;
+  display: flex;
 }
 
 .hero-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    gap: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  gap: 18px;
 }
 
 .hero-item:first-child {
-    width: 72px;
-
+  width: 72px;
 }
 
 .hero-item:last-child {
-    width: 92px;
+  width: 92px;
 }
 
 .hero-buttons {
-    display: flex;
-    margin-top: 36px;
-    gap: 17px;
+  display: flex;
+  margin-top: 36px;
+  gap: 17px;
 }
 
 .hero-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .hero-photo {
-    width: 188px;
-    height: 191px;
-    margin: 30px;
+  width: 188px;
+  height: 191px;
+  margin: 30px;
 }
 
 .hero-text {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .hero-btn {
-    display: block;
-    margin-top: 20px;
-    width: 26px;
-    height: 26px;
-    background-color: white;
-    outline: none;
-    border: none;
-    padding: 0;
-    border-radius: 20px;
+  display: block;
+  margin-top: 20px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0;
+  border-radius: 20px;
 }
 
 .hero-icon {
-    fill: var(--decorative-color);
-    width: 10px;
-    height: 10px;
+  fill: var(--decorative-color);
+  width: 10px;
+  height: 10px;
 }
 
 .hero-passion {
-    color: var(--decorative-color);
-    font-family: "Titan One";
-    font-size: 58px;
-    font-weight: 400;
-    line-height: 90.5%;
-    letter-spacing: 2.32px;
-    text-transform: uppercase;
+  color: var(--decorative-color);
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 90.5%;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
 }
 
 .hero-number {
-    color: var(--decorative-color);
-    text-align: right;
-    font-family: "Titan One";
-    font-size: 46px;
-    font-weight: 400;
-    letter-spacing: 1.84px;
-    text-transform: uppercase;
+  color: var(--decorative-color);
+  text-align: right;
+  font-family: "Titan One";
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 1.84px;
+  text-transform: uppercase;
 }
 
 /* .hero-product {
@@ -205,549 +199,555 @@ header {
 } */
 
 .hero-product {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFF;
-    display: block;
-    width: 102px;
-    height: 40px;
-    background-color: var(--decorative-color);
-    border-radius: 35px;
-    border: none;
-
-
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  width: 102px;
+  height: 40px;
+  background-color: var(--decorative-color);
+  border-radius: 35px;
+  border: none;
 }
 
 .hero-made {
-    color: var(--decorative-color);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    display: block;
-    width: 138px;
-    height: 40px;
-    background-color: var(--text-color);
-    border-radius: 35px;
-    border: none;
-
+  color: var(--decorative-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  width: 138px;
+  height: 40px;
+  background-color: var(--text-color);
+  border-radius: 35px;
+  border: none;
 }
 
-
-
 .hero-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 140%;
-    /* 19.6px */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
 }
 
 .products {
-    padding-top: 127px;
-    padding-bottom: 119px;
+  padding-top: 127px;
+  padding-bottom: 119px;
 }
 
 .products-title {
-    max-width: 350px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 49px;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 49px;
 }
 
 .products-btn {
-    margin-top: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.products-icon{
-fill: var(--decorative-color);
-    width: 15px;
-    height: 15px;
-    
+.products-icon {
+  fill: var(--decorative-color);
+  width: 15px;
+  height: 15px;
 }
 
 .products-text {
-    max-width: 341px;
+  max-width: 341px;
 }
 
 .products-list {
-    display: flex;
-    gap: 30px;
-
+  display: flex;
+  gap: 30px;
 }
 
 .products-item:first-child {
-    background-color: var(--title-color);
-    border-radius: 24px;
-    padding-bottom: 50px;
+  background-color: var(--title-color);
+  border-radius: 24px;
+  padding-bottom: 50px;
 }
 
 .products-item:nth-last-child(2) {
-    background-color: #F0D1A5;
-    border-radius: 24px;
-    padding-bottom: 50px;
+  background-color: #f0d1a5;
+  border-radius: 24px;
+  padding-bottom: 50px;
 }
 
 .products-item:last-child {
-    background-color: #C2E297;
-    border-radius: 24px;
-    padding-bottom: 50px;
+  background-color: #c2e297;
+  border-radius: 24px;
+  padding-bottom: 50px;
 }
 
 .products-photo {
-    width: 335px;
+  width: 335px;
 }
 
 .products-point {
-    width: 26px;
-    margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 26px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .products-slogan {
-    color: var(--decorative-color);
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 58px;
-    font-weight: 400;
-    letter-spacing: 3.48px;
-    text-transform: uppercase;
+  color: var(--decorative-color);
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 3.48px;
+  text-transform: uppercase;
 }
 
 .products-title {
-    color: var(--title-color);
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
+  color: var(--title-color);
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
 .products-subtitle {
-    color: var(--text-color);
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    margin-top: 38px;
-    margin-bottom: 32px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 38px;
+  margin-bottom: 32px;
 }
 
 .products-text {
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 700;
-    line-height: 176%;
-    letter-spacing: 0.64px;
-    margin-bottom: 62px;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 700;
+  line-height: 176%;
+  letter-spacing: 0.64px;
+  margin-bottom: 62px;
 }
 
 .tradition {
-    padding-top: 125px;
-    padding-bottom: 139px;
-    background-color: #FFF5F6;
-    padding-bottom: 125px;
-    background-image: url("../img/milk-splashes.png");
-    background-repeat: no-repeat;
-    background-position: center;
+  padding-top: 125px;
+  padding-bottom: 139px;
+  background-color: #fff5f6;
+  padding-bottom: 125px;
+  background-image: url("../img/milk-splashes.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tradition-title {
-    color: var(--title-color);
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-
+  color: var(--title-color);
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tradition-box {
-    max-width: 463px;
+  max-width: 463px;
 }
 
 .tradition-block {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .tradition-subtitle {
-    color: var(--decorative-color);
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 58px;
-    font-weight: 400;
-    letter-spacing: 3.48px;
-    text-transform: uppercase;
-    display: block;
+  color: var(--decorative-color);
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 3.48px;
+  text-transform: uppercase;
+  display: block;
 }
 
 .tradition-cow {
-    width: 516px;
-    height: 516px;
-    margin-right: 74px;
+  width: 516px;
+  height: 516px;
+  margin-right: 74px;
 }
 
 .tradition-icon {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .tradition-coffee {
-    width: 33px;
+  width: 33px;
 }
 
 .tradition-aple {
-    width: 50px;
+  width: 50px;
 }
 
 .tradition-candy {
-    width: 44px;
+  width: 44px;
 }
 
 .tradition-text {
-    color: var(--important-сolor);
-    font-weight: 500;
-    line-height: 176%;
-    letter-spacing: 0.64px;
-    margin-bottom: 35px;
+  color: var(--important-сolor);
+  font-weight: 500;
+  line-height: 176%;
+  letter-spacing: 0.64px;
+  margin-bottom: 35px;
 }
 
 .tradition-info {
-    color: var(--p-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 194%;
-    letter-spacing: 0.56px;
-    margin-bottom: 45px;
+  color: var(--p-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 194%;
+  letter-spacing: 0.56px;
+  margin-bottom: 45px;
 }
 
 .tradition-btn {
-    color: var(--decorative-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    display: block;
-    background-color: var(--text-color);
-    border-radius: 35px;
-    border: none;
-    width: 176px;
-    height: 44px;
-    flex-shrink: 0;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 35px;
+  color: var(--decorative-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  background-color: var(--text-color);
+  border-radius: 35px;
+  border: none;
+  width: 176px;
+  height: 44px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 35px;
 }
 
 .tradition-list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .tradition-weight {
-    color: var(--decorative-color);
-    text-align: right;
-    font-family: "Titan One";
-    font-size: 58px;
-    font-weight: 400;
-    letter-spacing: 2.32px;
-    text-transform: uppercase;
-    text-align: start;
-    margin-bottom: 15px;
+  color: var(--decorative-color);
+  text-align: right;
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+  text-align: start;
+  margin-bottom: 15px;
 }
 
 .tradition-description {
-    color: var(--important-сolor);
-    font-weight: 700;
-    line-height: 176%;
-    letter-spacing: 0.32px;
+  color: var(--important-сolor);
+  font-weight: 700;
+  line-height: 176%;
+  letter-spacing: 0.32px;
 }
 
 .comments {
-    padding-bottom: 132px;
+  padding-bottom: 132px;
 }
 
 .comments-container {
-    background-image: url(../img/quotes.png);
-    background-repeat: no-repeat;
-    background-position: 107px 605px;
+  background-image: url(../img/quotes.png);
+  background-repeat: no-repeat;
+  background-position: 107px 605px;
 }
 
 .comments-collage {
-    /* width: 1280px; */
+  /* width: 1280px; */
 }
 
 .comments-woman {
-    width: 85px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 123px;
-    margin-bottom: 62px;
+  width: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 123px;
+  margin-bottom: 62px;
 }
 
 .comments-point {
-    width: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 54px;
-    margin-bottom: 15px;
+  width: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;
+  margin-bottom: 15px;
 }
 
 .comments-img {
-    width: 72.395px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 72.395px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.comments-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.comments-home {
+  width: 12px;
+  height: 12px;
+  fill: var(--decorative-color);
+}
+.comments-icon{
+    width: 12px;
+    height: 12px;
+    fill: var(--p-color);
+}
 .comments-response {
-    color: var(--important-сolor);
-    text-align: center;
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
-    max-width: 813px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FAFAFA;
-    width: 926px;
-    height: 138px;
-    padding-top: 47px;
+  color: var(--important-сolor);
+  text-align: center;
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0.64px;
+  max-width: 813px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fafafa;
+  width: 926px;
+  height: 138px;
+  padding-top: 47px;
 }
 
 .comments-response::first-line {
-    border-bottom: #E1E1E1;
-    width: 813px;
-    height: 0px;
-
+  border-bottom: #e1e1e1;
+  width: 813px;
+  height: 0px;
 }
 
 .comments-data {
-    color: var(--important-сolor);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 186%;
-    margin-bottom: 35px;
+  color: var(--important-сolor);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 186%;
+  margin-bottom: 35px;
 }
 
 .schedule {
-    background-color: #FFF5F6;
-    background-image: url(../img/schedule-bg.png);
-    background-repeat: no-repeat;
-    background-position: 0px 102px;
+  background-color: #fff5f6;
+  background-image: url(../img/schedule-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0px 102px;
 }
 
-
 .schedule-institution {
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
-    padding-bottom: 32px;
-    background-color: #F0D1A5;
-    width: 73px;
-    height: 28px;
-    margin-bottom: 32px;
-    border-radius: 6px;
-
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0.64px;
+  padding-bottom: 32px;
+  background-color: #f0d1a5;
+  width: 73px;
+  height: 28px;
+  margin-bottom: 32px;
+  border-radius: 6px;
 }
 
 .schedule-green {
-    background-color: #C2E297;
-    width: 138px;
-    height: 28px;
-
+  background-color: #c2e297;
+  width: 138px;
+  height: 28px;
 }
 
 .schedule-list {
-    display: flex;
-    gap: 31px;
+  display: flex;
+  gap: 31px;
 }
 
 .schedule-item {
-    max-width: 330;
-    border-radius: 24px;
-    background: #FFF;
-    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
-    padding-left: 43px;
-    padding-right: 43px;
-    padding-top: 51px;
-    padding-bottom: 62px;
+  max-width: 330;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 51px;
+  padding-bottom: 62px;
 }
 
 .schedule-number {
-    color: var(--p-color);
-    font-family: "DM Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 183%;
-    max-width: 243px;
+  color: var(--p-color);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%;
+  max-width: 243px;
 }
 
 .schedule-location {
-    color: var(--important-сolor);
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
+  color: var(--important-сolor);
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0.64px;
 }
 
 .schedule-text {
-    color: var(--p-color);
-    font-weight: 500;
-    line-height: 183%;
-    letter-spacing: 0.64px;
-    margin-top: 10px;
-    margin-bottom: 64px;
+  color: var(--p-color);
+  font-weight: 500;
+  line-height: 183%;
+  letter-spacing: 0.64px;
+  margin-top: 10px;
+  margin-bottom: 64px;
 }
 
 .schedule-days {
-    color: var(--important-сolor);
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
+  color: var(--important-сolor);
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0.64px;
 }
 
 .schedule-time {
-    color: var(--title-color);
-    font-weight: 500;
-    line-height: 186%;
-    margin-bottom: 15px;
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 186%;
+  margin-bottom: 15px;
 }
 
 .schedule-weekend {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .schedule-subtext {
-    color: var(--p-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 183%;
+  color: var(--p-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 183%;
 }
 
 .schedule-bottons {
-    display: flex;
-    justify-content: center;
-    margin-top: 86px;
-    gap: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+  gap: 15px;
 }
 
 .schedule-btn {
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 700;
-    border-radius: 22px;
-    background: var(--decorative-color);
-    width: 198px;
-    height: 44px;
-    border: none;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 700;
+  border-radius: 22px;
+  background: var(--decorative-color);
+  width: 198px;
+  height: 44px;
+  border: none;
 }
 
 .schedule-franchise {
-    color: var(--decorative-color);
-    text-align: center;
-    font-weight: 700;
-    width: 180px;
-    height: 44px;
-    border-radius: 22px;
-    background: var(--text-color);
-    border: none;
+  color: var(--decorative-color);
+  text-align: center;
+  font-weight: 700;
+  width: 180px;
+  height: 44px;
+  border-radius: 22px;
+  background: var(--text-color);
+  border: none;
 }
 
 .footer {
-    padding-top: 165px;
-    padding-bottom: 10px;
-    background-color: #FFF5F6;
+  padding-top: 165px;
+  padding-bottom: 10px;
+  background-color: #fff5f6;
 }
 
 .footer-title {
-    color: var(--title-color);
-    font-family: "Titan One";
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    max-width: 480px;
+  color: var(--title-color);
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  max-width: 480px;
 }
 
 .footer-passion {
-    color: var(--decorative-color);
-    font-family: "Titan One";
-    font-size: 58px;
-    font-weight: 400;
-    letter-spacing: 3.48px;
-    text-transform: uppercase;
+  color: var(--decorative-color);
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 3.48px;
+  text-transform: uppercase;
+}
+.footer-icon{
+    fill: var(--text-color);
+    background-color: var(--title-color);
+    border-radius: 100px;
 }
 
 .footer-block {
-    display: flex;
-    max-width: 340px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-
+  display: flex;
+  max-width: 340px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 
 }
 
 .footer-wraper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .footer-img {
-    width: 34px;
-    display: block;
+  width: 34px;
+  display: block;
 }
 
 .footer-info {
-    color: var(--important-сolor);
-    font-weight: 700;
-    line-height: 186%;
-    letter-spacing: 0.32px;
-    margin-top: 50px;
+  color: var(--important-сolor);
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.32px;
+  margin-top: 50px;
 }
 
 .footer-number {
-    color: var(--decorative-color);
-    font-weight: 700;
-    line-height: 186%;
-    letter-spacing: 0.32px;
+  color: var(--decorative-color);
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.32px;
 }
 
 .footer-subtext {
-    color: var(--p-color);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 186%;
-    letter-spacing: 0.28px;
-    margin-top: 106px;
-    text-align: center;
-    border-top: solid #E1E1E1;
-    padding-top: 9px;
-
+  color: var(--p-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.28px;
+  margin-top: 106px;
+  text-align: center;
+  border-top: solid #e1e1e1;
+  padding-top: 9px;
 }
