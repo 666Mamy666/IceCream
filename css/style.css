@@ -698,10 +698,16 @@ header {
 }
 .footer-icon{
     fill: var(--text-color);
-    background-color: var(--title-color);
-    border-radius: 100px;
 }
-
+.footer-item{
+   background-color: var(--title-color);
+     display: inline-flex;      
+  align-items: center;        
+  justify-content: center;   
+  width: 34px;                
+  height: 34px;              
+  border-radius: 50%;   
+}
 .footer-block {
   display: flex;
   max-width: 340px;
