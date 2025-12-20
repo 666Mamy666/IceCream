@@ -757,3 +757,36 @@ header {
   border-top: solid #e1e1e1;
   padding-top: 9px;
 }
+.backdrop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(194, 226, 151, 50%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.modal{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+
+}
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-title{
+   text-align: center;
+  font-family: "Titan One"; 
+  font-weight: 50px;
+  font-size: 20px;
+  color: var(--title-color);
+}
