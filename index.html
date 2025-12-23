@@ -42,7 +42,7 @@
                     </li>
                 </ul>
             </nav>
-            <button class="header-button" type="button">Buy now</button>
+            <button class="header-button" type="button" data-modal-open>Buy now</button>
         </div>
     </header>
     <main>
@@ -318,20 +318,29 @@
             <p class="footer-subtext">© 2025 - IceCream. By Suzanna Kovblyk. </p>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <h3 class="modal-title">замовте морозиво</h3>
-            <form class="modal-form" action="">
-                <label class="modal-lable" for="">
-                    <input type="text" name="text" placeholder="name">
-                </label>
-                <label class="modal-lable" for="">
-                    <input type="email" name="email" placeholder="email">
-                </label>
+            <button class="modal-cross" data-modal-close>
+                <svg class="modal-icon">
+                    <use href="./img/symbol-defs.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <h3 class="modal-title">order ice cream</h3>
+            <form class="modal-form">
+                <label class="modal-lable">Name*</label>
+                    <input class="modal-placeholder" type="text" name="text" placeholder="Suzanna" required>
+
+                <label class="modal-lable">Email*</label>
+                    <input  class="modal-placeholder" type="email" name="email" placeholder="hello@gmail.com" required>
+
+                    <label class="modal-lable">Your wishes*</label>
+                    <input class="modal-desire" type="text" name="" placeholder="I want..." required>
+
                 <button class="modal-btn" type="submit">Buy now</button>
             </form>
         </div>
     </div>
+    <script src="./js/modal.js" type="module"></script>
 </body>
 
 </html>
