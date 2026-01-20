@@ -27,8 +27,16 @@ body {
 }
 
 header {
-  background-color: var(--background-color);
+  background-color: rgb(255, 184, 202, 80%);
   padding-top: 37px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 50px 10px rgb(212, 20, 67, 60%);
+  padding-bottom: 37px;
+  z-index: 2;
+  backdrop-filter: blur(3px);
 }
 
 .header-container {
@@ -88,6 +96,7 @@ header {
 
 .hero {
   background-color: var(--background-color);
+  padding-top: 129px;
 }
 
 .hero-container {
