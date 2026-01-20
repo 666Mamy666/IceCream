@@ -26,19 +26,19 @@
                 </a>
                 <ul class="header-list">
                     <li class="header-item">
-                        <a class="header-link" href="./index.html">Home</a>
+                        <a class="header-link" href="#home">Home</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="">About us</a>
+                        <a class="header-link" href="#about">About us</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="">How it’s made?</a>
+                        <a class="header-link" href="#made">How it’s made?</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="">Our products</a>
+                        <a class="header-link" href="#products">Our products</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="">Contact</a>
+                        <a class="header-link" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +46,7 @@
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="container hero-container">
                 <div class="hero-wraper">
                     <div class="hero-blok">
@@ -66,11 +66,11 @@
                     </div>
                     <ul class="hero-list">
                         <li class="hero-item">
-                            <h3 class="hero-number">16</h3>
+                            <h2 class="hero-number">16</h2>
                             <p class="hero-servise">cafes</p>
                         </li>
                         <li class="hero-item">
-                            <h3 class="hero-number">23</h3>
+                            <h2 class="hero-number">23</h2>
                             <p class="hero-servise">food trucks</p>
                         </li>
                     </ul>
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="products">
+        <section id="products" class="products">
             <div class="container">
 
                 <h2 class="products-title">100% natural
@@ -146,7 +146,7 @@
                 </ul>
             </div>
         </section>
-        <section class="tradition">
+        <section id="made" class="tradition">
             <div class="container">
                 <h2 class="tradition-title"> tradition and love
                     <span class="tradition-subtitle"> how it’s made? </span>
@@ -193,7 +193,7 @@
                 </ul>
             </div>
         </section>
-        <section class="comments">
+        <section id="about" class="comments">
             <div class="container comments-container">
                 <img class="comments-collage" src="./img/collage.png" alt="колаж">
                 <img class="comments-woman" src="./img/woman.png" alt="жінка">
@@ -226,14 +226,15 @@
         </section>
         <section class="schedule">
             <div class="container schedule-container">
+                <h2 class="schedule-title"></h2>
                 <ul class="schedule-list">
                     <li class="schedule-item">
-                        <h4 class="schedule-institution">CAFE</h4>
-                        <h5 class="schedule-location">Chicago</h5>
+                        <h3 class="schedule-institution">CAFE</h3>
+                        <h3 class="schedule-location">Chicago</h3>
                         <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                         <ul class="schedule-items">
                             <li class="schedule-element">
-                                <h5 class="schedule-days">Monday - Friday</h5>
+                                <h4 class="schedule-days">Monday - Friday</h4>
                                 <p class="schedule-time">06:00 AM - 10:00 PM</p>
                             </li>
                             <li class="schedule-element">
@@ -296,7 +297,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="Contact" class="footer">
         <div class="container">
             <div class="footer-wraper">
                 <h3 class="footer-title">homemade ice cream made <span class="footer-passion">with passion</span>
@@ -343,12 +344,18 @@
                 <input class="modal-placeholder" type="email" name="email" placeholder="hello@gmail.com" required>
 
                 <label class="modal-lable">Your wishes*</label>
-                <input class="modal-desire" type="text" name="" placeholder="I want..." required>
+                <input class="modal-desire" type="text" placeholder="I want..." required>
 
                 <button class="modal-btn" type="submit">Buy now</button>
             </form>
         </div>
     </div>
+    <a href="#home" class="scroll">
+     <svg class="scroll-icon">
+        <use href="./img/symbol-defs.svg#icon-scroll"></use>
+     </svg>
+    </a>
+
     <script src="./js/modal.js" type="module"></script>
 </body>
 

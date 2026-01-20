@@ -11,7 +11,9 @@
 
   --important-сolor: #000;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--text-color);
   font-family: "DM Sans";
@@ -891,4 +893,17 @@ padding-right: 16px;
 fill: var(--decorative-color);
 width: 18px;
 height: 18px;
+}
+
+.scroll{
+position: fixed;
+bottom: 0;
+right: 0;
+}
+.scroll-icon{
+  fill: #c2e297;
+  stroke: 2px aqua;
+  width: 28px;
+  height: 28px;
+  background-color: var(--decorative-color);
 }
