@@ -602,11 +602,28 @@ header {
  left: 0;
  padding: 40px;
  opacity: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transform: translateY(100%);
+ transition: transform 400ms ease;
 }
 .schedule-item:hover .schedule-overlay{
   opacity: 1;
+  transform: translateY(0);
 }
-
+.schedule-link{
+  color: var(--title-color);
+  background-color: var(--text-color);
+  border-radius: 4px;
+  font-size: 32px;
+padding-left: 16px;
+padding-right: 16px;
+}
+.schedule-link:hover{
+  color: var(--text-color);
+  background-color: var(--title-color);
+}
 .schedule-number {
   color: var(--p-color);
   font-family: "DM Sans";
