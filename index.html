@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,7 +21,8 @@
     <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
-                <a class="header-logo" href="./index.html">
+                <a class="header-logo animate__animated animate__fadeInTopLeft animate__fast 800ms animate__delay-1s"
+                    href="./index.html">
                     <svg class="header-icon">
                         <use href="./img/symbol-defs.svg#icon-logo"></use>
                     </svg>
@@ -99,7 +102,7 @@
                     <span class="products-slogan"> products</span>
                 </h2>
                 <ul class="products-list">
-                    <li class="products-item">
+                    <li class="products-item" data-aos="zoom-out-down"  data-aos-mirror="false">
                         <img class="products-photo" src="./img/ice-cream.png" alt="морозиво">
                         <h3 class="products-subtitle">ice cream</h3>
                         <img class="products-point" src="./img/point.png" alt="крапки">
@@ -113,7 +116,7 @@
                             </svg>
                         </button>
                     </li>
-                    <li class="products-item">
+                    <li class="products-item" data-aos="zoom-out"  data-aos-mirror="false">
                         <img class="products-photo" src="./img/ice-coffee.png" alt="холодна кава">
                         <h3 class="products-subtitle">ice coffee</h3>
                         <img class="products-point" src="./img/point.png" alt="крапки">
@@ -128,7 +131,7 @@
                         </button>
                     </li>
 
-                    <li class="products-item">
+                    <li class="products-item" data-aos="zoom-in-left"  data-aos-mirror="false">
 
                         <img class="products-photo" src="./img/milkshakes.png" alt="мілкшейк">
                         <h3 class="products-subtitle">milkshakes</h3>
@@ -228,7 +231,8 @@
             <div class="container schedule-container">
                 <h2 class="schedule-title"></h2>
                 <ul class="schedule-list">
-                    <li class="schedule-item">
+                    <li class="schedule-item" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <h3 class="schedule-institution">CAFE</h3>
                         <h3 class="schedule-location">Chicago</h3>
                         <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
@@ -247,7 +251,7 @@
                             <a class="schedule-link" href="#">read more</a>
                         </div>
                     </li>
-                    <li class="schedule-item">
+                    <li class="schedule-item" data-aos="fade-up" data-aos-duration="3000">
                         <h4 class="schedule-institution schedule-green">FOOD TRUCK</h4>
                         <h5 class="schedule-location">Los Angeles</h5>
                         <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
@@ -266,7 +270,7 @@
                             <a class="schedule-link" href="#">read more</a>
                         </div>
                     </li>
-                    <li class="schedule-item">
+                    <li class="schedule-item" data-aos="zoom-out-left">
                         <h4 class="schedule-institution">CAFE</h4>
                         <h5 class="schedule-location">New York</h5>
                         <p class="schedule-text">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
@@ -351,12 +355,16 @@
         </div>
     </div>
     <a href="#home" class="scroll">
-     <svg class="scroll-icon">
-        <use href="./img/symbol-defs.svg#icon-scroll"></use>
-     </svg>
+        <svg class="scroll-icon">
+            <use href="./img/symbol-defs.svg#icon-scroll"></use>
+        </svg>
     </a>
 
     <script src="./js/modal.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
