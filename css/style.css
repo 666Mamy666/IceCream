@@ -481,10 +481,16 @@ header {
 
 .comments {
   padding-bottom: 132px;
+   background: linear-gradient(
+    to bottom,
+      #FFF5F6 0%,
+       #FFF5F6 13.39%,
+      #FFFFFF 13.39%,
+      #FFFFFF 100%
+  );
 }
 
 .comments-container {
-  background-image: url(../img/quotes.png);
   background-repeat: no-repeat;
   background-position: 107px 605px;
 }
@@ -561,10 +567,22 @@ header {
 }
 
 .schedule {
-  background-color: #fff5f6;
-  background-image: url(../img/schedule-bg.png);
-  background-repeat: no-repeat;
-  background-position: 0px 102px;
+  position: relative;
+  background: url(../img/schedule-bg.png) no-repeat 0px 102px;
+}
+
+.schedule::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+      #FFFFFF 0%,
+       #FFFFFF 15%,
+      #FFF5F6 15%,
+      #FFF5F6 100%
+  );
+  z-index: -1;
 }
 
 .schedule-institution {
@@ -812,6 +830,7 @@ padding-right: 16px;
   left: 0;
   opacity: 0;
   pointer-events: none;
+  z-index: 3;
 }
 .is-hidden{
   opacity: 1;
@@ -897,13 +916,11 @@ height: 18px;
 
 .scroll{
 position: fixed;
-bottom: 0;
-right: 0;
+bottom: 30px;
+right: 30px;
 }
 .scroll-icon{
-  fill: #c2e297;
-  stroke: 2px aqua;
-  width: 28px;
-  height: 28px;
-  background-color: var(--decorative-color);
+  fill: var(--decorative-color);
+  width: 62px;
+  height: 62px;
 }
