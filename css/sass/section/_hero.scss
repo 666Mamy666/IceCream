@@ -1,0 +1,145 @@
+.hero {
+    background-color: var(--background-color);
+    padding-top: 129px;
+}
+
+.hero-container {
+    background-image: url("../img/woman-hero.png"),
+        url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, 477px 37px, 358px 52px;
+    padding-top: 73px;
+    padding-bottom: 56px;
+}
+
+.hero-title {
+    font-family: "Titan One";
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 1.52px;
+    text-transform: uppercase;
+}
+
+.hero-blok {
+    display: flex;
+    max-width: 277px;
+    flex-wrap: wrap;
+}
+
+.hero-wraper {
+    display: flex;
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    gap: 18px;
+}
+
+.hero-item:first-child {
+    width: 72px;
+}
+
+.hero-item:last-child {
+    width: 92px;
+}
+
+.hero-buttons {
+    display: flex;
+    margin-top: 36px;
+    gap: 17px;
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+}
+
+.hero-photo {
+    width: 188px;
+    height: 191px;
+    margin: 30px;
+}
+
+.hero-text {
+    max-width: 200px;
+}
+
+.hero-btn {
+    display: block;
+    margin-top: 20px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.hero-icon {
+    fill: var(--decorative-color);
+    width: 10px;
+    height: 10px;
+}
+
+.hero-passion {
+    color: var(--decorative-color);
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 90.5%;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+}
+
+.hero-number {
+    color: var(--decorative-color);
+    text-align: right;
+    font-family: "Titan One";
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+}
+
+/* .hero-product {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+} */
+
+.hero-product {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    width: 102px;
+    height: 40px;
+    background-color: var(--decorative-color);
+    border-radius: 35px;
+    border: none;
+}
+
+.hero-made {
+    color: var(--decorative-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    width: 138px;
+    height: 40px;
+    background-color: var(--text-color);
+    border-radius: 35px;
+    border: none;
+}
+
+.hero-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+}

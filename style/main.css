@@ -1,23 +1,37 @@
+@charset "UTF-8";
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 :root {
   --background-color: #ffb8ca;
-
   --decorative-color: #d41443;
-
   --text-color: #ffffff;
-
   --title-color: #ffa5ba;
-
   --p-color: #907e82;
-
   --important-сolor: #000;
-}
-html{
-  scroll-behavior: smooth;
-}
-body {
-  color: var(--text-color);
-  font-family: "DM Sans";
-  font-size: 16px;
 }
 
 .container {
@@ -28,14 +42,24 @@ body {
   margin-right: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "DM Sans";
+  font-size: 16px;
+}
+
 header {
-  background-color: rgb(255, 184, 202, 80%);
+  background-color: rgba(255, 184, 202, 0.8);
   padding-top: 37px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0px 4px 50px 10px rgb(212, 20, 67, 60%);
+  box-shadow: 0px 4px 50px 10px rgba(212, 20, 67, 0.6);
   padding-bottom: 37px;
   z-index: 2;
   backdrop-filter: blur(3px);
@@ -63,13 +87,15 @@ header {
 .header-link:hover {
   color: var(--decorative-color);
   font-weight: 700;
-  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 
 .header-link {
   color: inherit;
   font-weight: 700;
-  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 
 .header-list {
@@ -102,8 +128,7 @@ header {
 }
 
 .hero-container {
-  background-image: url("../img/woman-hero.png"),
-    url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
+  background-image: url("../img/woman-hero.png"), url("../img/ice-cream-hero.png"), url("../img/Ellipse.png");
   background-repeat: no-repeat;
   background-position: bottom right, 477px 37px, 358px 52px;
   padding-top: 73px;
@@ -208,7 +233,6 @@ header {
     font-size: 14px;
     font-weight: 400;
 } */
-
 .hero-product {
   text-align: center;
   font-size: 14px;
@@ -271,6 +295,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .products-icon {
   fill: var(--decorative-color);
   width: 15px;
@@ -481,13 +506,7 @@ header {
 
 .comments {
   padding-bottom: 132px;
-   background: linear-gradient(
-    to bottom,
-      #FFF5F6 0%,
-       #FFF5F6 13.39%,
-      #FFFFFF 13.39%,
-      #FFFFFF 100%
-  );
+  background: linear-gradient(to bottom, #FFF5F6 0%, #FFF5F6 13.39%, #FFFFFF 13.39%, #FFFFFF 100%);
 }
 
 .comments-container {
@@ -520,22 +539,26 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.comments-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
+
+.comments-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
+
 .comments-home {
   width: 12px;
   height: 12px;
   fill: var(--decorative-color);
 }
-.comments-icon{
-    width: 12px;
-    height: 12px;
-    fill: var(--p-color);
+
+.comments-icon {
+  width: 12px;
+  height: 12px;
+  fill: var(--p-color);
 }
+
 .comments-response {
   color: var(--important-сolor);
   text-align: center;
@@ -575,13 +598,7 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-      #FFFFFF 0%,
-       #FFFFFF 15%,
-      #FFF5F6 15%,
-      #FFF5F6 100%
-  );
+  background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 15%, #FFF5F6 15%, #FFF5F6 100%);
   z-index: -1;
 }
 
@@ -622,37 +639,42 @@ header {
   position: relative;
   overflow: hidden;
 }
-.schedule-overlay{
-  background-color: rgba(144, 126, 130, 70%);
+
+.schedule-overlay {
+  background-color: rgba(144, 126, 130, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
- top: 0;
- left: 0;
- padding: 40px;
- opacity: 0;
- display: flex;
- align-items: center;
- justify-content: center;
- transform: translateY(100%);
- transition: transform 400ms ease;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: transform 400ms ease;
 }
-.schedule-item:hover .schedule-overlay{
+
+.schedule-item:hover .schedule-overlay {
   opacity: 1;
   transform: translateY(0);
 }
-.schedule-link{
+
+.schedule-link {
   color: var(--title-color);
   background-color: var(--text-color);
   border-radius: 4px;
   font-size: 32px;
-padding-left: 16px;
-padding-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-.schedule-link:hover{
+
+.schedule-link:hover {
   color: var(--text-color);
   background-color: var(--title-color);
 }
+
 .schedule-number {
   color: var(--p-color);
   font-family: "DM Sans";
@@ -757,24 +779,26 @@ padding-right: 16px;
   letter-spacing: 3.48px;
   text-transform: uppercase;
 }
-.footer-icon{
-    fill: var(--text-color);
+
+.footer-icon {
+  fill: var(--text-color);
 }
-.footer-item{
-   background-color: var(--title-color);
-     display: inline-flex;      
-  align-items: center;        
-  justify-content: center;   
-  width: 34px;                
-  height: 34px;              
-  border-radius: 50%;   
+
+.footer-item {
+  background-color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
 }
+
 .footer-block {
   display: flex;
   max-width: 340px;
   flex-wrap: wrap;
   justify-content: flex-end;
-
 }
 
 .footer-wraper {
@@ -818,11 +842,12 @@ padding-right: 16px;
   border-top: solid #e1e1e1;
   padding-top: 9px;
 }
-.backdrop{
+
+.backdrop {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(105, 105, 105, 80%);
+  background-color: rgba(105, 105, 105, 0.8);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -832,11 +857,13 @@ padding-right: 16px;
   pointer-events: none;
   z-index: 3;
 }
-.is-hidden{
+
+.is-hidden {
   opacity: 1;
   pointer-events: auto;
 }
-.modal{
+
+.modal {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: white;
@@ -845,50 +872,56 @@ padding-right: 16px;
   border-radius: 20px;
   position: relative;
 }
-.modal-form{
+
+.modal-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.modal-title{
-   text-align: center;
-  font-family: "Titan One"; 
+
+.modal-title {
+  text-align: center;
+  font-family: "Titan One";
   font-size: 40px;
   font-weight: 400;
   color: var(--title-color);
   margin-bottom: 24px;
 }
-.modal-lable{
+
+.modal-lable {
   color: var(--important-сolor);
 }
+
 .modal-placeholder {
-    font-weight: 400px;
-    font-size: 16px;
-    display: block;
-    width: 350px;
-    height: 40px;
-    border-radius: 12px;
-    border-width: 1px;
-    padding-left: 12px;
-    background-color: #0C070826;
-    margin-top: 8px;
-    margin-bottom: 24px;
+  font-weight: 400px;
+  font-size: 16px;
+  display: block;
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border-width: 1px;
+  padding-left: 12px;
+  background-color: rgba(12, 7, 8, 0.1490196078);
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
-.modal-desire{
-    width: 350px;
-    height: 150px;
-    padding: 12px;
-    border-radius: 12px;
-    border-width: 1px;
-    resize: none;
-    background-color: #0C070826;
-    margin-top: 8px;
-    margin-bottom: 24px;
+
+.modal-desire {
+  width: 350px;
+  height: 150px;
+  padding: 12px;
+  border-radius: 12px;
+  border-width: 1px;
+  resize: none;
+  background-color: rgba(12, 7, 8, 0.1490196078);
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
-.modal-btn{
+
+.modal-btn {
   position: relative;
- color: var(--text-color);
+  color: var(--text-color);
   text-align: center;
   font-weight: 700;
   display: flex;
@@ -901,26 +934,29 @@ padding-right: 16px;
   border-radius: 35px;
   border: none;
 }
-.modal-cross{
+
+.modal-cross {
   position: absolute;
   background-color: transparent;
   border: none;
   right: 15px;
   top: 15px;
 }
-.modal-icon{
-fill: var(--decorative-color);
-width: 18px;
-height: 18px;
+
+.modal-icon {
+  fill: var(--decorative-color);
+  width: 18px;
+  height: 18px;
 }
 
-.scroll{
-position: fixed;
-bottom: 30px;
-right: 30px;
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
-.scroll-icon{
+
+.scroll-icon {
   fill: var(--decorative-color);
   width: 62px;
   height: 62px;
-}
+}/*# sourceMappingURL=main.css.map */

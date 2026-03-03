@@ -1,0 +1,88 @@
+.footer {
+    padding-top: 165px;
+    padding-bottom: 10px;
+    background-color: #fff5f6;
+}
+
+.footer-title {
+    color: var(--title-color);
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    max-width: 480px;
+}
+
+.footer-passion {
+    color: var(--decorative-color);
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+}
+
+.footer-icon {
+    fill: var(--text-color);
+}
+
+.footer-item {
+    background-color: var(--title-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.footer-block {
+    display: flex;
+    max-width: 340px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.footer-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-img {
+    width: 34px;
+    display: block;
+}
+
+.footer-info {
+    color: var(--important-сolor);
+    font-weight: 700;
+    line-height: 186%;
+    letter-spacing: 0.32px;
+    margin-top: 50px;
+}
+
+.footer-number {
+    color: var(--decorative-color);
+    font-weight: 700;
+    line-height: 186%;
+    letter-spacing: 0.32px;
+}
+
+.footer-subtext {
+    color: var(--p-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 186%;
+    letter-spacing: 0.28px;
+    margin-top: 106px;
+    text-align: center;
+    border-top: solid #e1e1e1;
+    padding-top: 9px;
+}
