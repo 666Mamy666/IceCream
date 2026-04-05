@@ -1,9 +1,9 @@
+@use "../base/var" as *;
 .schedule {
     position: relative;
     background: url(../img/schedule-bg.png) no-repeat 0px 102px;
-}
 
-.schedule::before {
+    &:before {
     content: "";
     position: absolute;
     inset: 0;
@@ -14,9 +14,29 @@
             #FFF5F6 100%);
     z-index: -1;
 }
+&__list {
+    display: flex;
+    gap: 31px;
+}
+&__item {
+    max-width: 330;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 51px;
+    padding-bottom: 62px;
+    position: relative;
+    overflow: hidden;
 
-.schedule-institution {
-    color: var(--text-color);
+    &:hover &__overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+&__institution {
+    color: $text-color;
     text-align: center;
     font-weight: 500;
     line-height: 186%;
@@ -28,32 +48,51 @@
     margin-bottom: 32px;
     border-radius: 6px;
 }
-
-.schedule-green {
+&__green {
     background-color: #c2e297;
     width: 138px;
     height: 28px;
 }
-
-.schedule-list {
-    display: flex;
-    gap: 31px;
+&__location {
+    color: $important-color;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.64px;
+}
+&__text {
+    color: $p-color;
+    font-weight: 500;
+    line-height: 183%;
+    letter-spacing: 0.64px;
+    margin-top: 10px;
+    margin-bottom: 64px;
+}
+&__days {
+    color: $important-color;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.64px;
 }
 
-.schedule-item {
-    max-width: 330;
-    border-radius: 24px;
-    background: #fff;
-    box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-    padding-left: 43px;
-    padding-right: 43px;
-    padding-top: 51px;
-    padding-bottom: 62px;
-    position: relative;
-    overflow: hidden;
+&__time {
+    color: $title-color;
+    font-weight: 500;
+    line-height: 186%;
+    margin-bottom: 15px;
 }
-
-.schedule-overlay {
+&__weekend {
+    margin-bottom: 64px;
+}
+&__number {
+    color: $p-color;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183%;
+    max-width: 243px;
+}
+&__overlay {
     background-color: rgba(144, 126, 130, 70%);
     width: 100%;
     height: 100%;
@@ -68,102 +107,78 @@
     transform: translateY(100%);
     transition: transform 400ms ease;
 }
-
-.schedule-item:hover .schedule-overlay {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.schedule-link {
-    color: var(--title-color);
-    background-color: var(--text-color);
+&__link {
+    color: $title-color;
+    background-color: $text-color;
     border-radius: 4px;
     font-size: 32px;
     padding-left: 16px;
     padding-right: 16px;
-}
 
-.schedule-link:hover {
-    color: var(--text-color);
-    background-color: var(--title-color);
+    &:hover {
+    color: $text-color;
+    background-color: $title-color;
 }
-
-.schedule-number {
-    color: var(--p-color);
-    font-family: "DM Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 183%;
-    max-width: 243px;
 }
-
-.schedule-location {
-    color: var(--important-сolor);
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
-}
-
-.schedule-text {
-    color: var(--p-color);
-    font-weight: 500;
-    line-height: 183%;
-    letter-spacing: 0.64px;
-    margin-top: 10px;
-    margin-bottom: 64px;
-}
-
-.schedule-days {
-    color: var(--important-сolor);
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
-}
-
-.schedule-time {
-    color: var(--title-color);
-    font-weight: 500;
-    line-height: 186%;
-    margin-bottom: 15px;
-}
-
-.schedule-weekend {
-    margin-bottom: 64px;
-}
-
-.schedule-subtext {
-    color: var(--p-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 183%;
-}
-
-.schedule-bottons {
+&__bottons {
     display: flex;
     justify-content: center;
     margin-top: 86px;
     gap: 15px;
 }
-
-.schedule-btn {
-    color: var(--text-color);
+&__btn {
+    color: $text-color;
     text-align: center;
     font-weight: 700;
     border-radius: 22px;
-    background: var(--decorative-color);
+    background: $decorative-color;
     width: 198px;
     height: 44px;
     border: none;
 }
 
-.schedule-franchise {
-    color: var(--decorative-color);
+&__franchise {
+    color: $decorative-color;
     text-align: center;
     font-weight: 700;
     width: 180px;
     height: 44px;
     border-radius: 22px;
-    background: var(--text-color);
+    background: $text-color;
     border: none;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.schedule-subtext {
+    color: $p-color;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 183%;
+}
+
+
+

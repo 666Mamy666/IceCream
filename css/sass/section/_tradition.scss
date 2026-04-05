@@ -1,15 +1,15 @@
+@use "../base/var" as *;
 .tradition {
-    padding-top: 125px;
-    padding-bottom: 139px;
-    background-color: #fff5f6;
-    padding-bottom: 125px;
-    background-image: url("../img/milk-splashes.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
+  padding-top: 125px;
+  padding-bottom: 139px;
+  background-color: #fff5f6;
+  padding-bottom: 125px;
+  background-image: url("../img/milk-splashes.png");
+  background-repeat: no-repeat;
+  background-position: center;
 
-.tradition-title {
-    color: var(--title-color);
+  &__title {
+    color: $title-color;
     text-align: center;
     font-family: "Titan One";
     font-size: 30px;
@@ -19,19 +19,9 @@
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.tradition-box {
-    max-width: 463px;
-}
-
-.tradition-block {
-    display: flex;
-    align-items: center;
-}
-
-.tradition-subtitle {
-    color: var(--decorative-color);
+  }
+  &__subtitle {
+    color: $decorative-color;
     text-align: center;
     font-family: "Titan One";
     font-size: 58px;
@@ -39,54 +29,42 @@
     letter-spacing: 3.48px;
     text-transform: uppercase;
     display: block;
-}
-
-.tradition-cow {
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+  &__cow {
     width: 516px;
     height: 516px;
     margin-right: 74px;
-}
-
-.tradition-icon {
-    margin-bottom: 40px;
-}
-
-.tradition-coffee {
-    width: 33px;
-}
-
-.tradition-aple {
-    width: 50px;
-}
-
-.tradition-candy {
-    width: 44px;
-}
-
-.tradition-text {
-    color: var(--important-сolor);
+  }
+  &__box {
+    max-width: 463px;
+  }
+  &__text {
+    color: $important-color;
     font-weight: 500;
     line-height: 176%;
     letter-spacing: 0.64px;
     margin-bottom: 35px;
-}
+  }
 
-.tradition-info {
-    color: var(--p-color);
+  &__info {
+    color: $p-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 194%;
     letter-spacing: 0.56px;
     margin-bottom: 45px;
-}
-
-.tradition-btn {
-    color: var(--decorative-color);
+  }
+  &__btn {
+    color: $decorative-color;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     display: block;
-    background-color: var(--text-color);
+    background-color: $text-color;
     border-radius: 35px;
     border: none;
     width: 176px;
@@ -95,15 +73,16 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 35px;
-}
-
-.tradition-list {
+  }
+  &__list {
     display: flex;
     gap: 30px;
-}
-
-.tradition-weight {
-    color: var(--decorative-color);
+  }
+  &__icon {
+    margin-bottom: 40px;
+  }
+  &__weight {
+    color: $decorative-color;
     text-align: right;
     font-family: "Titan One";
     font-size: 58px;
@@ -112,11 +91,20 @@
     text-transform: uppercase;
     text-align: start;
     margin-bottom: 15px;
-}
-
-.tradition-description {
-    color: var(--important-сolor);
+  }
+  &__description {
+    color: $important-color;
     font-weight: 700;
     line-height: 176%;
     letter-spacing: 0.32px;
+  }
+   &__coffee {
+    width: 33px;
+  }
+  &__aple {
+    width: 50px;
+  }
+  &__candy {
+    width: 44px;
+  }
 }

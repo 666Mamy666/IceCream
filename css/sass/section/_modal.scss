@@ -1,3 +1,87 @@
+@use "../base/var" as *;
+
+.modal {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+  position: relative;
+
+  &__cross {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 15px;
+    top: 15px;
+  }
+
+  &__icon {
+    fill: $decorative-color;
+    width: 18px;
+    height: 18px;
+  }
+  &__title {
+  text-align: center;
+  font-family: "Titan One";
+  font-size: 40px;
+  font-weight: 400;
+  color: $title-color;
+  margin-bottom: 24px;
+}
+&__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+&__lable {
+  color: $important-color;
+}
+
+&__placeholder {
+  font-weight: 400px;
+  font-size: 16px;
+  display: block;
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border-width: 1px;
+  padding-left: 12px;
+  background-color: #0c070826;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+&__desire {
+  width: 350px;
+  height: 150px;
+  padding: 12px;
+  border-radius: 12px;
+  border-width: 1px;
+  resize: none;
+  background-color: #0c070826;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+&__btn {
+  position: relative;
+  color: $text-color;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  width: 159px;
+  height: 44px;
+  flex-direction: column;
+  justify-content: center;
+  display: block;
+  background-color: $decorative-color;
+  border-radius: 35px;
+  border: none;
+}
+}
+
 .backdrop {
     display: flex;
     align-items: center;
@@ -12,94 +96,14 @@
     pointer-events: none;
     z-index: 3;
 }
-
 .is-hidden {
     opacity: 1;
     pointer-events: auto;
 }
 
-.modal {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: white;
-    width: 500px;
-    height: 700px;
-    border-radius: 20px;
-    position: relative;
-}
 
-.modal-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.modal-title {
-    text-align: center;
-    font-family: "Titan One";
-    font-size: 40px;
-    font-weight: 400;
-    color: var(--title-color);
-    margin-bottom: 24px;
-}
 
-.modal-lable {
-    color: var(--important-сolor);
-}
 
-.modal-placeholder {
-    font-weight: 400px;
-    font-size: 16px;
-    display: block;
-    width: 350px;
-    height: 40px;
-    border-radius: 12px;
-    border-width: 1px;
-    padding-left: 12px;
-    background-color: #0C070826;
-    margin-top: 8px;
-    margin-bottom: 24px;
-}
 
-.modal-desire {
-    width: 350px;
-    height: 150px;
-    padding: 12px;
-    border-radius: 12px;
-    border-width: 1px;
-    resize: none;
-    background-color: #0C070826;
-    margin-top: 8px;
-    margin-bottom: 24px;
-}
 
-.modal-btn {
-    position: relative;
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 700;
-    display: flex;
-    width: 159px;
-    height: 44px;
-    flex-direction: column;
-    justify-content: center;
-    display: block;
-    background-color: var(--decorative-color);
-    border-radius: 35px;
-    border: none;
-}
-
-.modal-cross {
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    right: 15px;
-    top: 15px;
-}
-
-.modal-icon {
-    fill: var(--decorative-color);
-    width: 18px;
-    height: 18px;
-}
